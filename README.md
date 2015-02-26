@@ -110,6 +110,10 @@ $ heroku login
 $ heroku git:remote -a <app name>
 # Set environment vars
 $ heroku config:add NODE_ENV=production
+$ heroku config:add AMIIPARE_FIREBASE_URL=https://<app name>.firebaseio.com/
+$ heroku config:add AMIIPARE_EBAY_URL=https://svcs.ebay.com/services/search/FindingService/v1
+$ heroku config:add AMIIPARE_EBAY_APPNAME=<your Ebay app name>
+$ heroku config:add AMIIPARE_MASHAPE_APIKEY=<Your Mashape API Key>
 # Add files
 $ git add .
 # Commit files
