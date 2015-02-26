@@ -1,0 +1,16 @@
+'use strict';
+
+// Development specific configuration
+// ==================================
+module.exports = {
+  firebase: {
+    url: '' // https://<app name>.firebaseio.com/
+  },
+  ebay: {
+    url: 'https://svcs.ebay.com/services/search/FindingService/v1',
+    appName: '' // https://developer.ebay.com/DevZone/account/default.aspx
+  },
+  mashape: {
+    apiKey: '' // https://www.mashape.com/
+  }
+};
